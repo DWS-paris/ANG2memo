@@ -7,6 +7,8 @@ Le projet présenté sur ce repo permet d'utiliser le service Http de Angular2 s
 Vous devez avoir la dernière version de Node.js et NPM pour faire fonctionner cette application.
     
 
+
+
 ## Présentation du service HOMEPAGE
 
 Configuration du constructor
@@ -40,6 +42,9 @@ private handleError (error: any) {
 }
 ```
 
+
+
+
 ## Présentation du component HOMEPAGE
 
 Pour faire fonctionner correctement le système de promise, il est fortement recommandé d'implémenter la class OnInit au composant.
@@ -65,6 +70,9 @@ ngOnInit() {
     this.getMemos(); 
 }
 ```
+
+
+
 
 ## UX design
 
