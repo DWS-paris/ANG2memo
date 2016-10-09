@@ -1,4 +1,4 @@
-# Utilisation du service Http sur des flux JSON
+# Angular2 : utilisation du service Http sur des flux JSON
 
 Le projet présenté sur ce repo permet d'utiliser le service Http de Angular2 sur des flux json (API). Il présente la mise en place du système de promise pour prendre en compte les requêtes asynchrones.
 
