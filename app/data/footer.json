@@ -1,0 +1,32 @@
+[
+	{
+		"id": 0,
+		"title": "W3Schools", 
+		"link": "http://www.w3schools.com/"
+	},
+    {
+		"id": 1,
+		"title": "Mozilla Developer Network", 
+		"link": "https://developer.mozilla.org/fr/"
+	},
+    {
+		"id": 2,
+		"title": "jQuery", 
+		"link": "http://jquery.com/"
+	},
+    {
+		"id": 3,
+		"title": "jQuery UI", 
+		"link": "http://jqueryui.com/"
+	},
+    {
+		"id": 4,
+		"title": "Plugins jQuery", 
+		"link": "https://plugins.jquery.com/"
+	},
+    {
+		"id": 5,
+		"title": "©2016 DWS | Under MIT Licence", 
+		"link": "http://www.digitalworkshop.fr"
+	}
+]
