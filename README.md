@@ -68,6 +68,8 @@ ngOnInit() {
 
 ## UX design
 
+### ToggleBox
+
 Cette application présente également une technique permettant de mettren en place un système de toggleBox (sur le composant memopage). Cette technique permet de faire un toggle de la class .open qui contient une animation CSS.
 
 Template du composant memopage
@@ -101,5 +103,6 @@ Animation CSS
 }
 ```
 
+### Animations
 Les animation d'ouverture de page ont été créées grâce à la bibliothèque créée par Daniel Eden :
 [animate.css](https://daneden.github.io/animate.css/)
