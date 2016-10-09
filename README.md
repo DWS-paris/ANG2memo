@@ -100,3 +100,6 @@ Animation CSS
     opacity: 1;
 }
 ```
+
+Les animation d'ouverture de page ont été créées grâce à la bibliothèque créée par Daniel Eden :
+[animate.css](https://daneden.github.io/animate.css/)
