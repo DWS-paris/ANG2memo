@@ -65,3 +65,38 @@ ngOnInit() {
     this.getMemos(); 
 }
 ```
+
+## UX design
+
+Cette application présente également une technique permettant de mettren en place un système de toggleBox (sur le composant memopage). Cette technique permet de faire un toggle de la class .open qui contient une animation CSS.
+
+Template du composant memopage
+```bash
+<h3 (click)="isOpen = !isOpen;">Titre</h3>
+<article class="contentToggle" [ngClass]="{'open': isOpen }">
+    ...
+</article>
+```
+
+Animation CSS
+```bash
+.contentToggle  {
+    overflow-y: hidden;
+	max-height: 0;
+    visibility: hidden;
+    opacity: 0;
+
+    -webkit-transition-property: all;
+    transition-property: all;
+	-webkit-transition-duration: 1s;
+	transition-duration: 1s;
+	-webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.contentToggle.open{
+    max-height: 100rem;
+    visibility: visible;
+    opacity: 1;
+}
+```
