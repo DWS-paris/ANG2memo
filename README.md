@@ -42,7 +42,7 @@ private handleError (error: any) {
 
 ### Présentation du component HOMEPAGE
 
-Pour faire fonctionner correctement le système de promise, il est fortement recommander d'implémenter la class OnInit au composant.
+Pour faire fonctionner correctement le système de promise, il est fortement recommandé d'implémenter la class OnInit au composant.
 
 Ajout du service dans le constructor
 ```bash
