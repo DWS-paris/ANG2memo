@@ -2,12 +2,12 @@
 
 Le projet présenté sur ce repo permet d'utiliser le service Http de Angular2 sur des flux json (API). Il présente la mise en place du système de promise pour prendre en compte les requêtes asynchrones.
 
-## Prérequis
+### Prérequis
 
 Vous devez avoir la dernière version de Node.js et NPM pour faire fonctionner cette application.
     
 
-### Présentation du service HOMEPAGE
+## Présentation du service HOMEPAGE
 
 Configuration du constructor
 ```bash
@@ -40,7 +40,7 @@ private handleError (error: any) {
 }
 ```
 
-### Présentation du component HOMEPAGE
+## Présentation du component HOMEPAGE
 
 Pour faire fonctionner correctement le système de promise, il est fortement recommandé d'implémenter la class OnInit au composant.
 
